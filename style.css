@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+body{
+    background-color: #353535;
+   
+}
+.main-header{
+    padding: 10px 0 0 0;
+}
+.main-header ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main-header li{
+    display: inline;
+    line-height: 100%;
+    padding: 0px 40px;
+    align-items: center;
+}
+.enlaces-geek-home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+.enlaces-geek-home:hover{
+    color:#d35002;
+}
+.contenedor-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh; 
+}
+.izq-contenedor{
+    padding: 30px; 
+    display: flex;
+    align-items: center;
+}
+.izq-contenedor .titulo-geek-landing{
+    padding: 10px;
+}
+.izq-contenedor .titulo-geek-landing h1{
+    font-size: 80px;
+    color: #d35002;
+}
+.izq-contenedor .titulo-geek-landing p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+.descripcion-geek-landing{
+    padding: 10px;
+}
+.desc-geek-landing p{
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.button-landing-home{
+    background-color: #d35002;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.button-landing-home:hover{
+    background-color: white;
+    color: #d35002;
+}
+.formulario-landing{
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+}
+.formulario-landing form{
+ padding: 20px;
+ background-color: rgba(255, 255, 255, 0.281);
+ display: flex;
+ color: white;
+ font-family: 'Russo One', sans-serif;
+ font-size: 25px;
+}
+.formulario-landing .title-form{
+   padding: 0 30px;
+   font-size: 30px;
+   text-align: center;
+   color: #f36e21;
+}
+.formulario-landing .form-container{
+    width: 100%;
+}
+.formulario-landing .form-landing-datos{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+.form-conteiner-cajas{
+    padding: 10px;
+}
+.form-conteiner-cajas input{
+    width: 100%;
+    border-radius: 3px;
+    border:0;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.form-conteiner-cajas-terminos{
+    padding: 10px;
+    font-size: 20px;
+}
+.form-conteiner-cajas-terminos label{
+    padding: 0 5px
+}
+.button-enviar-form{
+    background-color: #d35002;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.button-enviar-form:hover{
+    background-color: #353535;
+    color: #d35002;
+}
